@@ -12,6 +12,8 @@ export default function App() {
     console.log("Trykket " + number)
   }
 
+  // test kommentar
+
   const flipCard = () => {
     Animated.timing(animatedValue, {
       toValue: flipped ? 0 : 1,
